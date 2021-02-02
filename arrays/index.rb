@@ -18,3 +18,6 @@ list.length # get array length
 list.empty? # check if the array is empty
 list.first # get first value
 list.last # get last value
+
+# join arrays
+list = list + ["String", 2, Object]
