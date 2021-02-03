@@ -9,4 +9,5 @@ response.chomp!
 # or
 response = response.chomp
 
-
+# converting string (the default value of "gets" method is string) to integer
+response = gets.chomp.to_i
